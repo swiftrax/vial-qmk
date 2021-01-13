@@ -1,0 +1,28 @@
+{
+  "name": "vial test",
+  "vendorId": "0xfeed",
+  "productId": "0x2b29",
+  "lighting": "qmk_backlight",
+  "matrix": {
+    "rows": 12,
+    "cols": 9
+  },
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "c": "#aaaaaa"
+        },
+        "0,0",
+        {
+          "x": 0.25
+        },
+        "0,0\n\n\n\n\n\n\n\n\ne",
+        "0,1\n\n\n\n\n\n\n\n\ne"
+      ]
+    ]
+  },
+  "vial": {
+    "vibl": true
+  }
+}
