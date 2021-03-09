@@ -62,3 +62,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* bootmagic row col assignment */
 #define BOOTMAGIC_LITE_ROW 1
 #define BOOTMAGIC_LITE_COLUMN 0
+
+#define VIAL_KEYBOARD_UID {0x00, 0x1B, 0xDF, 0x83, 0x43, 0xCE, 0x14, 0xA5}
+#define VIAL_ENCODER_DEFAULT { KC_VOLU, KC_VOLD, KC_VOLU, KC_VOLD, KC_VOLU, KC_VOLD, }
