@@ -20,8 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Vial
-#define PRODUCT         RP2040 example
+#define MANUFACTURER    Swiftrax
+#define PRODUCT         ArtPad
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { GP5, GP4, GP24, GP23 }
 #define MATRIX_COL_PINS { GP25, GP26, GP27, GP28, GP29, GP11 }
 
-#define DIODE_DIRECTION ROW2COL
+#define DIODE_DIRECTION COL2ROW
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
@@ -38,9 +38,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A { GP1 }
 #define ENCODERS_PAD_B { GP0 }
 
-#ifdef OLED_DRIVER_ENABLE
-  #define OLED_DISPLAY_128X64
-  #define OLED_TIMEOUT 300000
-#endif
 
-#define OLED_FONT_END 127
+#define OLED_DISPLAY_128X64
+#define I2C1_SCL_PIN GP3
+#define I2C1_SDA_PIN GP2
+#define I2C_DRIVER I2CD2
+#define OLED_BRIGHTNESS 128

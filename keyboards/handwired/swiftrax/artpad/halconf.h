@@ -17,4 +17,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define HAL_USE_I2C TRUE
 
-#include_next "halconf.h"
+#include_next <halconf.h>
